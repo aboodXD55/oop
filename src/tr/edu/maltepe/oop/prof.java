@@ -1,21 +1,17 @@
 package tr.edu.maltepe.oop;
 
-public class prof extends person
+class Prof extends person
 {
-    public String getprofname()
-    {
-        return name;
+    private int pro_ID;
+    public void setPro_ID (int pi) {
+
+        pro_ID = pi;
     }
-    public void setprofname(String name)
-    {
-        this.name = name;
+    public int getpro_ID(int i) {
+        return pro_ID;
+
     }
-    public int getprofsalery()
-    {
-        return salery;
-    }
-    public void setprofsalery(int salery)
-    {
-        this.salery = salery;
+    void teaches(){
+        System.out.println("Prof is teaching now");
     }
 }
