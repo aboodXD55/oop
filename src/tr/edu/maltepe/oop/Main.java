@@ -14,7 +14,7 @@ public class Main{
         Prof prof1= new Prof();
         prof1.setName("ensar");
         prof1.setAge(String.valueOf(50));
-        prof1.setPro_ID(33);
+        prof1.setPro_ID(13);
         prof1.teaches();
 
         System.out.println("Student Name: " + Student1.getName());
