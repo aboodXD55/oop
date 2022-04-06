@@ -6,7 +6,7 @@ public class Main{
 
     public static void main(String [] er)
     {
-
+        //hi
         Javabook book1 = new Javabook("javaBaisc",500);
         Javabook book2 = new Javabook("introToJava",500);
         Javabook book3 = new Javabook("javaOop",500);
