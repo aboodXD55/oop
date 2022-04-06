@@ -8,7 +8,6 @@ public class Javabook {
 
 
     public Javabook(String bookname, int n) {
-        super();
         this.bookname = bookname;
         this.n = n;
         this.borrowed = false;
